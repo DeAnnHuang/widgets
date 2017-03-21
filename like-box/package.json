@@ -1,0 +1,17 @@
+{
+  "name": "like-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "likeBox.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0"
+  }
+}

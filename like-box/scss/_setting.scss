@@ -1,0 +1,7 @@
+@for $i from 1 through 4 {
+    $base: 10;
+    $fontsize: $base * $i;
+    .font-#{$fontsize} {
+        font-size: $fontsize + 0px;
+    }
+}
