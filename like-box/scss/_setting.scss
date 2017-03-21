@@ -5,3 +5,14 @@
         font-size: $fontsize + 0px;
     }
 }
+
+// ====font-size===== //
+@mixin Flex($x, $y) {
+    display: flex;
+    @if $x !=null {
+        align-items: $x;
+    }
+    @if $y !=null {
+        justify-content: $y;
+    }
+}
